@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<studenti>
+	<studente>
+		<nome>Shinjan</nome>
+		<cognome>Khastagir</cognome>
+		<dob>1991-12-17</dob>
+		<residenza>Torino</residenza>
+		<voti>
+			<voto materia="Matematica" voto="8"/>
+			<voto materia="Storia" voto="5"/>
+		</voti>
+	</studente>
+	<studente nome="Pino" cognome="Pane" dob="2002-3-2" residenza="Milano"/>
+</studenti>
