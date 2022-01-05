@@ -63,7 +63,7 @@ public abstract class Entity implements Cloneable {
 	//Questa metodo lo scriveremo con l'aiuto di java refelection 
 	//Una serie di metodi che ci aiutono a ragionare sugli elementi che
 	//compongono il nostro oggetto, quindi potremo manipolare le sue 
-	//proprietà e i suoi metodi senza conoscerle
+	//proprietï¿½ e i suoi metodi senza conoscerle
 	public Map<String, String> toMap()
 	{
 		Map<String, String> ris = new LinkedHashMap<String , String>();	
@@ -100,6 +100,7 @@ public abstract class Entity implements Cloneable {
 
 		return ris;
 	}
+	//CONVENTION OVER CONFIGURATION
 	//CONVENTION OVER CONFIGURATION
 	//CONVENTION OVER CONFIGURATION
 	//CONVENTION OVER CONFIGURATION
