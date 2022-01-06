@@ -2,15 +2,18 @@ package com.generation.utility.kbd;
 
 import java.util.Scanner;
 
+    // merge test from ranjan branch
+
+
 public class KBD implements IKBD
 {
 
  
 
-    //Questa classe è l'adapter, ovvero quello che mette in accordo
+    //Questa classe ï¿½ l'adapter, ovvero quello che mette in accordo
     //il vecchio componente con la nuova interfaccia
     //Nel nostro caso il vecchio Scanner e IKBD
-    //Per farlo dobbiamo implementare l'interfaccia e inserire tra le proprietà
+    //Per farlo dobbiamo implementare l'interfaccia e inserire tra le proprietï¿½
     //uno Scanner
     
     private Scanner s;
