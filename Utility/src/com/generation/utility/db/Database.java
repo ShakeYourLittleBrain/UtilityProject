@@ -9,15 +9,18 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+	// merge test from shinjan-test branch
+
+
 public class Database {
 
 	private static final String FUSORARIO = "?" + "useUnicode=true&" + "useJDBCCompliantTimezoneShift=true&"
 			+ "useLegacyDatetimeCode=false&" + "serverTimezone=UTC";
 
 	// In questa classe utilizzeramo un pattern di nome singleton.
-	// In informatica un pattern è una slouzione comune ad un problema ricorrente.
-	// Il mio problema con questa classe è che voglio che di oggetti Database,
-	// all'interno del mio progetto, non ve vengono creati più di 1.
+	// In informatica un pattern ï¿½ una slouzione comune ad un problema ricorrente.
+	// Il mio problema con questa classe ï¿½ che voglio che di oggetti Database,
+	// all'interno del mio progetto, non ve vengono creati piï¿½ di 1.
 	// Quindi voglio che venga creato un solo canale di connessione con mySQL
 	// e che venga utilizzato solamente quello , senza mai chiuderlo e
 	// riaprirne di nuovi, visto che richiederebbe risorse.
@@ -25,8 +28,8 @@ public class Database {
 	// Per applicare il pattern Singleton si procede cosi :
 
 	// Dichiarare un'istanza privata e statica di Database
-	// questo sarà l'unico oggetto Database che tutto il mio programma
-	// utilizzerà
+	// questo sarï¿½ l'unico oggetto Database che tutto il mio programma
+	// utilizzerï¿½
 
 	private static Database instance = null;
 	private Connection con;
