@@ -1,5 +1,7 @@
 package com.generation.utility.kbd;
 
+    // merge test shekor-test branch
+
 public interface IKBD 
 {
 	public String leggi();
