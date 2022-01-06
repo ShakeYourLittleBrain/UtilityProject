@@ -109,6 +109,8 @@ public abstract class Entity implements Cloneable {
 	//CONVENTION OVER CONFIGURATION
 	//CONVENTION OVER CONFIGURATION
 
+	//main merge test
+
 	public void fromMap(Map<String , String> mappa)
 	{
 		for(Method m : this.getClass().getMethods())
