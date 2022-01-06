@@ -12,6 +12,10 @@ import java.util.Map;
 	// merge test from shinjan-test branch
 
 
+	// merge test from shinjan-test branch 2
+
+	// merge test from shinjan-test branch 3
+
 public class Database {
 
 	private static final String FUSORARIO = "?" + "useUnicode=true&" + "useJDBCCompliantTimezoneShift=true&"
