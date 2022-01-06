@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 import com.generation.utility.entities.Entity;
 
+	//merge test kanta-test branch
+ 
 public class View 
 {
 	private String percorsoCartella;
