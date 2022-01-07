@@ -8,6 +8,8 @@ import java.util.Scanner;
 import com.generation.utility.entities.Entity;
 
 	//merge test kanta-test branch
+
+	//merge test kanta-test branch 1
  
 public class View 
 {
