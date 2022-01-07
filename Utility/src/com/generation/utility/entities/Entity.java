@@ -113,7 +113,7 @@ public abstract class Entity implements Cloneable {
 
 	//main merge test 1
 
-	//main merge conflict test 1
+	//main merge conflict test 1 from kanta branch
 
 	public void fromMap(Map<String , String> mappa)
 	{
