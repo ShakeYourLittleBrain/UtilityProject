@@ -111,6 +111,8 @@ public abstract class Entity implements Cloneable {
 
 	//main merge test
 
+	//main merge test 1
+
 	public void fromMap(Map<String , String> mappa)
 	{
 		for(Method m : this.getClass().getMethods())
